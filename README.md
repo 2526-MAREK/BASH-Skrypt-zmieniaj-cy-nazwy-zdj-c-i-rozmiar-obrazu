@@ -1,0 +1,1 @@
+# BASH-Skrypt-zmieniaj-cy-nazwy-zdj-c-i-rozmiar-obrazu
