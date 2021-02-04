@@ -1,12 +1,9 @@
 #!/bin/bash
 
-#Laboratorium 4 - Praca z uniksowym interpreterem poleceń oraz systemem X Window
-#MAREK_SZULAK, 259227
-
-
+#MAREK_SZULAK
 
 #pytamy użytkownika
-echo "Jeśli twoje zdjęcia są w innym katalogu proszę wprowadz ścieżkę do niego (np Pulpit/TEST(Jeśli chcesz zostać w tym katalogu co jesteś proszę wpisz kropke (.):"
+echo "Jeśli twoje zdjęcia są w innym katalogu proszę wprowadz ścieżkę do niego (np Pulpit/TEST(Jeśli chcesz zostać w tym katalogu co jesteś proszę wpisz kropke (.)):"
 read katalog
 echo "Proszę podaj do jakiego rozmiaru chcesz wyskalować wszystkie obrazy(np 100x200): "
 read rozmiar
@@ -61,12 +58,5 @@ mv archiwum.tar *jpeg *png cd ..
 cd ..
 
 rmdir tymczasowy
-
-#TESTY SKRYPTÓW:
-#1 Test
-#
-
-
-
 
 
